@@ -8,6 +8,10 @@ header {
   height: 10rem;
 }
 
+.body {
+  height: auto;
+}
+
 nav {
   position: relative;
   top: -4.3rem;
@@ -36,12 +40,8 @@ footer {
 }
 
 div.container {
-  margin: 0rem auto;
-}
-
-.float {
-  float: right;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {

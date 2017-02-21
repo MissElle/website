@@ -1,0 +1,72 @@
+header {
+  position: fixed;
+  top: -2.5rem;
+  left: 0rem;
+  margin: 0rem;
+  padding 0rem;
+  width: 100%;
+  min-width: 40.5rem;
+  height: 10rem;
+  z-index: 10;
+}
+
+nav {
+  position: relative;
+  top: -4.3rem;
+  text-align: center;
+}
+
+nav>a {
+  display:inline-block;
+  padding-left:3rem;
+  padding-right:3rem;
+}
+
+footer a {
+  padding: 0 0 0 0;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0rem;
+  height: 4rem;
+  left: 0rem;
+  width: 100%;
+  min-width: 25rem;
+  overflow: visible;
+  z-index: 9;
+}
+
+div.container {
+  width: 80rem;
+  margin: 0rem auto;
+  z-index: 3;
+}
+
+.float {
+  float: right;
+  padding: 1rem;
+}
+
+h2 {
+  text-align: left;
+  text-indent: 5rem;
+  clear:both;
+  font-size: 2.3rem;
+}
+
+h3 {
+  text-align: left;
+  text-indent: 5rem;
+  font-size: 1.5rem;
+  clear:both;
+}
+
+p {
+  padding: 0 0 0 2.5rem;
+}
+
+figure img {
+  width: 80%;
+}

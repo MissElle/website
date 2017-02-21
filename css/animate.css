@@ -1,0 +1,49 @@
+li:hover {
+  /*Decided not to rotate-webkit-transform:rotate(2deg);*/
+  -webkit-animation: shake .5s ease-in-out;
+}
+
+  @keyframes shake {
+    0% {transform:translate(.1rem, .1rem);}
+    5% {transform:translate(-.1rem, -.1rem);}
+    10% {transform:translate(.1rem, .1rem);}
+    15% {transform:translate(-.09rem, -.09rem);}
+    20% {transform:translate(.09rem, .09rem);}
+    25% {transform:translate(-.08rem, -.08rem)}
+    30% {transform:translate(.08rem, .08rem);}
+    35% {transform:translate(-.07rem, -.07rem);}
+    40% {transform:translate(.07rem, .07rem);}
+    45% {transform:translate(-.07rem, -.07rem);}
+    50% {transform:translate(.05rem, .05rem)}
+    50% {transform:translate(.05rem, .05rem)}
+    55% {transform:translate(-.05rem, -.05rem);}
+    60% {transform:translate(.05rem, .05rem);}
+    65% {transform:translate(-.04rem, -.04rem);}
+    70% {transform:translate(.04rem, .04rem);}
+    75% {transform:translate(-.04rem, -.04rem)}
+    80% {transform:translate(.03rem, .03rem);}
+    85% {transform:translate(-.03rem, -.03rem);}
+    90% {transform:translate(.02rem, .02rem);}
+    95% {transform:translate(-.01rem, -.01rem);}
+    100% {transform:translate(0,0)}
+  }
+
+nav>a {display:inline-block;}
+nav a:link {color: #00004d;}
+nav a:visited {color: #00004d;}
+nav a:hover {color: #ff4da6;}
+nav a:hover {transform:scale(1.5);}
+nav a:hover {transition: all .07s ease-in;}
+nav a {transition: all .07s ease-out;}
+
+footer a:hover {color: #ff4da6;}
+footer a:visited {text-decoration: none;}
+
+footer i:hover {transform:scale(1.4);}
+footer i:hover {transition: all .07s ease-in;}
+footer i {transition: all .07s ease-out;}
+
+figure img:hover {transform:scale(1.4);}
+figure img:hover {transition: all .07s ease-in;}
+figure img {transition: all .07s ease-out;}
+figure img:hover{box-shadow: 0 0 3rem .5rem rgba(102, 153, 255, 0.9);}

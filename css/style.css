@@ -1,0 +1,78 @@
+@font-face {
+  font-family: headingfont;
+  src: url(../fonts/fat-stack.TTF);
+}
+/*
+@font-face {
+  font-family: navfont;
+  src: url(../fonts/alphabetized-cassette-tapes.ttf);
+}
+*/
+@font-face {
+  font-family: bodyfont;
+  src: url(../fonts/anna-regular.ttf);
+} 
+
+/**temporarily disabling custom fonts**/
+
+html {
+  background-image: url(../images/test5.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: 'headingfont';
+  color: #00004d;
+  font-size: 4.3rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background:rgba(255,255,255,.8);
+  font-family: 'headingfont';
+}
+
+nav a {
+  font-family: 'Rock Salt', cursive;
+  color: #00004d;
+  font-size: 1.3rem;
+}
+
+footer p>a{
+  text-decoration: none;
+  font-size: 2rem;
+  text-indent: 2rem;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, .8);
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.3rem;
+  color: #00004d;
+}
+
+figure {
+  float: left;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 1.3rem;
+  max-width: 15rem;
+  height: 4rem;
+}
+
+article {
+  font-family:'bodyfont';
+  font-size: 1.7rem;
+  color: #00004d;
+}
+
+.education {
+  font-weight: bold;
+  font-size: 2.2rem
+}

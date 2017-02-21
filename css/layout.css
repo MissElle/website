@@ -34,13 +34,10 @@ footer {
   width: 100%;
   min-width: 25rem;
   overflow: visible;
-  z-index: 9;
 }
 
 div.container {
-  width: 80rem;
   margin: 0rem auto;
-  z-index: 3;
 }
 
 .float {

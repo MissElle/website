@@ -20,7 +20,7 @@ html {
   background-repeat: repeat;
 }
 
-.body {
+.container {
   background-image: url(../images/background.png);
   background-repeat: repeat-y;
   background-size: cover;
@@ -29,8 +29,8 @@ html {
 h1 {
   font-family: 'headingfont';
   color: #00004d;
-  font-size: 4.3rem;
-  text-align: center;
+/*  font-size: 4.3rem;*/
+/*  text-align: center;*/
 }
 
 a {
@@ -38,47 +38,47 @@ a {
 }
 
 header {
-  background:rgba(255,255,255,.8);
+  background:rgba(255,255,255, 1);
   font-family: 'headingfont';
+  box-shadow: 0 0 1rem 1rem rgba(255, 255, 255, 1);
 }
 
 nav a {
   font-family: 'Rock Salt', cursive;
   color: #00004d;
-  font-size: 1.3rem;
+/*  font-size: 1.3rem;*/
 }
 
 footer p>a{
   text-decoration: none;
+/*
   font-size: 2rem;
   text-indent: 2rem;
+*/
 }
 
 footer {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   font-family: 'Coming Soon', cursive;
-  font-size: 1.3rem;
+/*  font-size: 1.3rem;*/
   color: #00004d;
+  box-shadow: 0 0 1rem 1rem rgba(255, 255, 255, 1);
 }
 
 figure {
-  float: left;
-  text-align: center;
+/*  text-align: center;*/
 }
 
+/*
 figcaption {
   font-size: 1.3rem;
   max-width: 15rem;
   height: 4rem;
 }
+*/
 
 article {
   font-family:'bodyfont';
-  font-size: 1.7rem;
   color: #00004d;
 }
 
-.education {
-  font-weight: bold;
-  font-size: 2.2rem
-}

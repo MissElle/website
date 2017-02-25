@@ -29,6 +29,80 @@ div.row:after {
 
 /*This is for full screen viewings */
 
+header {
+  position: fixed;
+  top: 0rem;
+  margin: 0rem;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  z-index: 20;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+nav {
+  position: relative;
+  top: -1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+nav>a {
+  display:inline-block;
+  padding-left:3rem;
+  padding-right:3rem;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0rem;
+  height: 2rem;
+  left: 0rem;
+  width: 100%;
+  min-width: 25rem;
+  overflow: visible;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  padding: 7rem 2.5rem 3rem 4rem;
+  width: 70%;
+  min-width: 58.4375rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+img.float {
+  float: left;
+  padding: 0 2rem 1rem 0;
+  width: 45%;
+}
+
+article p{
+  font-size: 1.3rem;
+  padding: .7rem 0 0 0;
+}
+
+.education {
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding 0 0 0 0;
+}
+
+.container p {
+  display:
+}
+
+figure {
+  
+}
+
 /*This is for partial screen viewings */
 
 /*This is for device viewings */
@@ -68,48 +142,11 @@ div.w95 {width: 95%;}
 
 /*This is layout items beyond grids*/
 
-header {
-  position: fixed;
-  top: 0rem;
-  margin: 0rem;
-  width: 100%;
-  height: 10rem;
-}
 
-.body {
-  height: auto;
-}
 
-nav {
-  position: relative;
-  top: 0rem;
-  text-align: center;
-}
-
-nav>a {
-  display:inline-block;
-  padding-left:3rem;
-  padding-right:3rem;
-}
-
-footer a {
-  padding: 0 0 0 0;
-}
-
-footer {
-  position: fixed;
-  text-align: center;
-  bottom: 0rem;
-  height: 4rem;
-  left: 0rem;
-  width: 100%;
-  min-width: 25rem;
-  overflow: visible;
-}
-
-div.container {
+figure {
   display: flex;
-  justify-content: center;
+  flex-flow: column wrap;
 }
 
 /*
@@ -128,9 +165,6 @@ h3 {
 }
 */
 
-p {
-  padding: 0 0 0 2.5rem;
-}
 
 figure img {
   width: 80%;

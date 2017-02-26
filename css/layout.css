@@ -107,6 +107,14 @@ figure img {
   }
 }
 
+/*stops the image in home page from shrinking anymore*/
+
+@media only screen and (max-width: 800px) {
+  .float {
+  width: 15.8rem;
+}
+}
+
 /*This prevents the nav and heading from overlapping */
 
 @media only screen and (max-width: 635px) {
@@ -115,6 +123,7 @@ figure img {
   }
   
   h1{ font-size: 10vw;}
+  
 }
 
 /*This is for smaller viewings for the menu*/
@@ -178,7 +187,7 @@ figure img {
   footer p{
     text-align: left;
     padding: 0 0 0 1rem;
-    font-size: 1rem;
+    font-size: 1rem;o
   }
 }
 

@@ -27,6 +27,86 @@ nav>a {
   padding: 0 2.5rem;
 }
 
+.float {
+  float: left;
+  padding: 0 2rem 1rem 0;
+  width: 38%;
+}
+
+.education {
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 1.3rem;
+  padding: 1rem 0 0 0;
+  text-align: justify;
+}
+
+footer {
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  width: 100%;
+  overflow: visible;
+}
+
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
+
+  h2 {
+   text-align: center;
+   font-size: 1.7rem;
+  }
+
+  h3 {
+   text-align: center;
+   font-size: 1.3rem;
+   padding: 0 0 1rem 0;
+  }
+
+.container {
+  width: 70%;
+  min-width: 58.4375rem;
+  margin: 0rem auto;
+  padding: 7rem 2.5rem 3rem 5rem;
+  z-index: 3;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+figure {
+ display: inline-flex;
+ flex-flow: column wrap;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ padding: 0 0 2rem 0;
+ text-align: center;
+ width: 32%;
+}
+
+figure img {
+  width: 80%;
+}
+
+/*This will cause the body of the container to shrink at this size*/
+
+@media all and (max-width: 951px) {
+  .container {
+    min-width: 100%;
+  }
+  
+  figure {
+    width: 49%;
+    padding: 0 0 .7rem 0;
+  }
+}
+
 /*This prevents the nav and heading from overlapping */
 
 @media only screen and (max-width: 635px) {
@@ -59,6 +139,17 @@ nav>a {
    font-size: 3.3rem;
    padding: 0 0 0 3.1rem;
   }
+  
+  figure {width: 100%;}
+  
+  figcaption {padding: 0 0 0 0;}
+ 
+  h2 {font-size: 5.2vw;}
+
+  h3 {font-size: 3.9vw;}
+  
+  p {font-size: 4.2vw;}
+  
 }
 
 /*for devices*/
@@ -83,83 +174,12 @@ nav>a {
    font-size: 3.3rem;
    padding: 0 0 0 1rem;
   }
-}
 
-.float {
-  float: left;
-  padding: 0 2rem 1rem 0;
-  width: 38%;
-}
-
-.education {
-  font-size: 1.7rem;
-}
-
-p {
-  font-size: 1.3rem;
-  padding: 1rem 0 0 0;
-  text-align: justify;
-}
-
-footer {
-  position: fixed;
-  bottom: 0rem;
-  left: 0rem;
-  width: 100%;
-  overflow: visible;
-}
-
-footer p {
-  text-align: center;
-  font-weight: bold;
-}
-
-h2 {
- text-align: left;
- text-indent: 5rem;
- font-size: 1.7rem;
-}
-
-h3 {
- text-align: left;
- text-indent: 5rem;
- font-size: 1.3rem;
- padding: 0 0 1rem 0;
-}
-
-.container {
-  width: 70%;
-  min-width: 58.4375rem;
-  margin: 0rem auto;
-  padding: 7rem 2.5rem 3rem 5rem;
-  z-index: 3;
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-  justify-content: space-between;
-}
-
-/*This will cause the body of the container to shrink at this size*/
-
-@media all and (max-width: 935px) {
-  .container {
-    min-width: 100%;
+  footer p{
+    text-align: left;
+    padding: 0 0 0 1rem;
+    font-size: 1rem;
   }
-}
-
-figure {
- display: inline-flex;
- flex-flow: column wrap;
- justify-content: center;
- align-content: center;
- align-items: center;
- padding: 0 0 2rem 0;
- text-align: center;
- width: 32%;
-}
-
-figure img {
-  width: 80%;
 }
 
 /* This css if only for grid layout structures. All design is in form.css */

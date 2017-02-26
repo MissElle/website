@@ -94,6 +94,10 @@ figure img {
   width: 80%;
 }
 
+.left {
+  text-align: left;
+}
+
 /*This will cause the body of the container to shrink at this size*/
 
 @media all and (max-width: 951px) {

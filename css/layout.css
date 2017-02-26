@@ -82,12 +82,11 @@ h3 {
 */
 
 figure {
- display: flex;
+ display: inline-flex;
  flex-flow: column wrap;
  justify-content: center;
  align-content: center;
  align-items: center;
- width: 30%;
 }
 
 figure img {

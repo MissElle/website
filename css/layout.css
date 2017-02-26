@@ -42,8 +42,9 @@ footer {
   width: 70%;
   min-width: 58.4375rem;
   margin: 0rem auto;
-  padding: 7rem 2rem 3rem 3.5rem;
+  padding: 7rem 2.5rem 3rem 5rem;
   z-index: 3;
+  display: flex;
 }
 
 .float {
@@ -59,7 +60,9 @@ footer {
 p {
   font-size: 1.3rem;
   padding: 1rem 0 0 0;
+  text-align: justify;
 }
+
 
 /*
 h2 {
@@ -76,6 +79,14 @@ h3 {
   clear:both;
 }
 */
+
+figure {
+ display: flex;
+ flex-flow: column wrap;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+}
 
 figure img {
   width: 80%;

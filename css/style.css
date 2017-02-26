@@ -29,8 +29,6 @@ html {
 h1 {
   font-family: 'headingfont';
   color: #00004d;
-/*  font-size: 4.3rem;*/
-/*  text-align: center;*/
 }
 
 a {
@@ -43,18 +41,13 @@ header {
   box-shadow: 0 0 1rem 1rem rgba(255, 255, 255, 1);
 }
 
-nav a {
+nav>a {
   font-family: 'Rock Salt', cursive;
   color: #00004d;
-/*  font-size: 1.3rem;*/
 }
 
 footer p>a{
   text-decoration: none;
-/*
-  font-size: 2rem;
-  text-indent: 2rem;
-*/
 }
 
 footer {
@@ -64,16 +57,19 @@ footer {
   box-shadow: 0 0 1rem 1rem rgba(255, 255, 255, 1);
 }
 
-/*
-figcaption {
-  font-size: 1.3rem;
-  max-width: 15rem;
-  height: 4rem;
-}
-*/
-
 article {
   font-family:'bodyfont';
   color: #00004d;
 }
 
+.fa-linkedin-square {
+  color: #006699;
+}
+
+.fa-twitter {
+  color: #32cdfd;
+}
+
+.fa-facebook-square {
+  color: #2d4485;
+}

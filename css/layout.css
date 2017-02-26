@@ -143,6 +143,7 @@ figure img {
   nav>a {
     padding: 0;
     font-size: .8rem;
+    font-weight: bold;
   }
   
   h1{
@@ -191,12 +192,33 @@ figure img {
    font-size: 3.3rem;
    padding: 0 0 0 1rem;
   }
+  
+  .container{
+    padding-left: 16%;
+  }
 
   footer p{
     text-align: left;
     padding: 0 0 0 1rem;
-    font-size: 1rem;o
+    font-size: 1rem;
   }
+  
+  p {
+    padding: .5rem 0 0 0;
+  }
+}
+
+/*This is only for iPhone5s */
+
+@media only screen and (max-width: 321px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  
+  nav>a {
+    font-size: .7rem;
+  }
+  
 }
 
 /* This css if only for grid layout structures. All design is in form.css */

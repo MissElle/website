@@ -161,7 +161,11 @@ figure img {
 
   h3 {font-size: 3.9vw;}
   
-  p {font-size: 4.2vw;}
+  p {font-size: 4vw;}
+  
+  .education{
+    font-size: 5.2vw;
+  }
   
 }
 
